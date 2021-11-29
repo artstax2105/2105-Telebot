@@ -3,7 +3,7 @@ from unittest.mock import call
 import telebot
 from telebot import types, TeleBot
 
-bot: TeleBot = telebot.TeleBot("1900873912:AAFnyRgiQUGBi61wVKxalNYNuPG3och3U88")
+bot: TeleBot = telebot.TeleBot("")
 # создание клавиатуры 1
 
 keyboard = telebot.types.ReplyKeyboardMarkup(True)
